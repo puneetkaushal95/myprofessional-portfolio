@@ -1,0 +1,150 @@
+.header-color{
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid{
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+text-align: center;
+}
+
+.avatar-img{
+  height: 250px;
+  padding-top: 5em;
+  border-radius: 50%;
+
+}
+
+.banner-text{
+  background-color: #6A5ACD;
+  opacity: .8em;
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.banner-text hr{
+  border-top: 4px dotted white;
+    margin-right: auto;
+}
+
+.banner-text p{
+  color: white;
+  font-size: 25px;
+  padding: .5em;
+  text-align: center;
+}
+
+.social-links i{
+  color: white;
+  justify-content: space-between ;
+  width: 20%;
+  margin: auto;
+  font-size: 5em;
+  align-items: center;
+}
+
+.projects-grid{
+  display: flex;
+}
+
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 2px;
+
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width:50%;
+  margin:auto;
+}
+
+.contact-list i{
+  font-size: 45px;
+  padding-right: 5rem;
+}
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.about-body{
+  text-align: center;
+}
+
+.about-body h2{
+  margin-top: 35px;
+  line-height: 1px;
+}
+
+.about-grid img{
+  width: 300px;
+  padding-top: 80px;
+  transform: rotate(10deg);
+}
+
+.about-info{
+  padding-top: 80px;
+}
+
+.about-info p{
+  text-align: justify;
+}
+
+.about-icons i {
+  font-size: 3em;
+  /*color: grey;*/
+  padding: 15px;
+  padding-top: 0px;
+}
+
+
+
+.about-icons2 i{
+  font-size: 1em;
+  padding: 30px;
+  padding-top: 0px;
+  align-items: justify;
+}
