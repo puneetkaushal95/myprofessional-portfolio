@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+import image from './puneet.jpg';
 
 class Contact extends Component{
 	render() {
@@ -9,8 +10,8 @@ class Contact extends Component{
 						<Cell col={6}>
 							<h2>Puneet Kaushal</h2>
 							<img
-								src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-								alt="avatar"
+								src={image}
+										alt="me"
 								style={{height: '250px'}}
 							/>
 							<p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>Recently, I came from India for study purpose to Canada. I am Puneet Kaushal aged 22 years old and I am currently enrolled into Mobile Application and Development in Cambrian College in North York, ON, Canada. I am a bachelorette in Computer, Statistics and Mathematics. I love to do Web Development specifically in ReactJS and want to pursue my career as a Web Developer. I also have foundational knowledge of Swift, Android, Java and Object-oriented practices.</p>

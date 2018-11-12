@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Grid, Cell} from 'react-mdl';
 import Education from './education';
+import image from './passport.jpg';
 
 import Skills from './skillslevel';
 
@@ -9,12 +10,12 @@ class Resume extends Component{
 		return(
 				<div>
 					<Grid>
-						<Cell col={4}>
+						<Cell className="resume-left-col" col={4}>
 						<div style={{textAlign: 'center'}}>
 						<img 
-							src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-							alt="avatar"
-							style={{height:'200px'}}
+							src={image}
+										alt="me"
+							style={{height:'200px',paddingTop:'2px'}}
 						/>
 						</div>
 							<h2 style={{paddingTop:'1em', fontSize:'57px'}}><b>Puneet Kaushal</b></h2>
@@ -90,7 +91,7 @@ class Resume extends Component{
 							 	<h2>Skills</h2>
 
 							 	<Skills
-							 		skill="HTML/CSS"
+							 		skill="HTML|CSS"
 							 		progress={80}
 							 	/>
 

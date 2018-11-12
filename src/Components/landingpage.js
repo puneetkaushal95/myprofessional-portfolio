@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-
+import image from './1.jpg';
 class Landing extends Component{
 	render() {
 		return(
 				<div style={{width: '100%', margin: 'auto'}}>
 				<Grid className="landing-grid">
 				<Cell col={12}>
-					<img src="https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_960_720.png"
-					alt="avatar"
-					className="avatar-img"
+					<img className="avatar-img"
+					src={image}
+						alt="me"					
 					/>
 					<div className="banner-text">
 					<h1>Front-end Web Developer</h1>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './Components/main';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
     return (
      <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/">My Portfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/">Puneet Kaushal - My Portfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -27,7 +27,7 @@ class App extends Component {
             </Navigation>
         </Drawer>
         <Content>
-            <div className="page-content" />
+            <div className="page-content"/>
             <Main/>
         </Content>
     </Layout>
